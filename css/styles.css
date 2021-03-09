@@ -1,3 +1,11 @@
+:root {
+  --color-main: lightpink;
+  --color-hover: lightblue; 
+  --color-font: black;
+  --color-p: lightgreen;
+  /* #0660bd */
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -6,7 +14,7 @@ h1 {
 }
 
 h1:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 h2 {
@@ -16,7 +24,7 @@ h2 {
 }
 
 h2:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 h3 {
@@ -33,12 +41,12 @@ h4 {
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #8f8f8f;
+  color: var(--color-p);
 }
 
 #title {
-  background-color: #000;
-  color: white;
+  background-color: var(--color-main);
+  color: var(--color-font);
 }
 
 .container-fluid {
@@ -86,30 +94,30 @@ p {
 
 .title-icon {
   margin: 0% 5% 5% 0%;
-  color: white;
+  color: var(--color-font);
 }
 
 .title-icon:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 .subtitle {
   font-size: 4rem;
-  color: white;
+  color: var(--color-font);
   margin-bottom: 5rem;
 }
 
 .subtitle:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 /* Features Section */
 
 #aboutme {
   padding: 7% 15%;
-  background-color: black;
+  background-color: var(--color-main);
   position: relative;
-  color: white;
+  color: var(--color-font);
 }
 
 .aboutme-box {
@@ -123,19 +131,19 @@ p {
 }
 
 .aboutme-icon:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 .aboutme-text {
-  color: #aaaaaa;
+  color: var(--color-font);
 }
 
 .aboutme-h2:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 .aboutme-p {
-  color: #aaaaaa;
+  color: var(--color-font);
   padding-bottom: 3rem;
 }
 
@@ -143,18 +151,18 @@ p {
 /* Skills Section */
 #skills {
   padding: 7% 15%;
-  background-color: black;
+  background-color: var(--color-main);
   position: relative;
-  color: white;
+  color: var(--color-font);
 }
 
 /* Testimonial Section */
 
 #testimonials {
   padding: 7% 15%;
-  background-color: black;
+  background-color: var(--color-main);
   position: relative;
-  color: white;
+  color: var(--color-font);
 }
 
 #testimonial-carousel {
@@ -176,7 +184,7 @@ p {
 #footer {
   text-align: center;
   padding: 7% 15%;
-  background-color: white;
+  background-color: var(--color-font);
 }
 
 .footer-icon {
@@ -185,15 +193,15 @@ p {
 
 /* Footer */
 #footer {
-  background-color: black;
+  background-color: var(--color-main);
 }
 
 .footer-icon {
-  color: white;
+  color: var(--color-font);
 }
 
 .footer-icon:hover {
-  color: #0660bd;
+  color: var(--color-hover);
 }
 
 /* Responsive Website */
